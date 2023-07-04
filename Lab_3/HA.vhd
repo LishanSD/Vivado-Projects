@@ -17,7 +17,6 @@
 -- 
 ----------------------------------------------------------------------------------
 
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -42,6 +41,5 @@ architecture Behavioral of HA is
 begin
     S <= A XOR B;
     C <= A AND B;
-
 
 end Behavioral;
