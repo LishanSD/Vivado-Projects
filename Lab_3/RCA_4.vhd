@@ -96,4 +96,3 @@ begin
   C_Out => C_out);
 
 end Behavioral;
-
