@@ -45,6 +45,7 @@ component Decoder_2_to_4
     EN: in STD_LOGIC;
     Y: out STD_LOGIC_VECTOR);
 end component;
+
 signal I0, I1 : STD_LOGIC_VECTOR (1 downto 0);
 signal Y0, Y1 : STD_LOGIC_VECTOR (3 downto 0);
 signal en0, en1, I2 : STD_LOGIC;
@@ -75,4 +76,3 @@ Decoder_2_to_4_1 : Decoder_2_to_4
  Y(7 downto 4) <= Y1;
 
 end Behavioral;
-
