@@ -170,4 +170,3 @@ begin
     WAIT;     
 end process;
 end Behavioral;
-
