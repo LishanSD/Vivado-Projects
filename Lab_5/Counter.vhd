@@ -87,13 +87,12 @@ Slow_Clk0 : Slow_Clk
  D_FF2 : D_FF 
  port map (
   D => D2, 
- Res => Res, 
- Clk => Clk_slow, 
- Q => Q2);
+  Res => Res, 
+  Clk => Clk_slow, 
+  Q => Q2);
  
  Q(0) <= Q0; 
-Q(1) <= Q1;
-Q(2) <= Q2;
+ Q(1) <= Q1;
+ Q(2) <= Q2;
 
 end Behavioral;
-
