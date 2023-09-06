@@ -103,4 +103,3 @@ S <= S_RCA;
 Zero <= NOT(S_RCA(0)) AND NOT(S_RCA(1)) AND NOT(S_RCA(2)) AND NOT(S_RCA(3));
 
 end Behavioral;
-
